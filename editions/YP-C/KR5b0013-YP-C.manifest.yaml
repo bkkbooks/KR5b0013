@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0013/YP-C/v1
+canonical_location: https://kanripo.org/bkk/KR5b0013/YP-C/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上洞玄靈寶開演祕密藏經
+  date: '2015-08-28 23:47:09.431903'
+  source:
+    repository: kanripo
+    path: KR5b0013
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: YP-C
+    label: 【原版道藏輯要】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0013_000-YP-C.yaml, hash: 'sha256:b95356bfed80ce5ca1d9d335e17e3f28660d398085b73678696a30be98ee4a25'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0013_000-YP-C.markers.yaml, hash: 'sha256:f0369abde5a69fb5f4edefc4c7357121b418faf2f1f574def59edf1477a3ad0f'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0013_YP-C_04fangji-06-0008a
+    span:
+    - body
+    - 0
+    - 1893
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:ac85061e6db18860a7c72bf5634cbfdb6abf98c9b40e50a4cc919375db88a834
